@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: auto;
+    height: 85px;
+}
+
+#banner {
+    background-image: url('https://images.hdqwalls.com/wallpapers/the-batman-2022-red-0w.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+actor-photos-container {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.photo-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.photo1 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-1 {
+    background-image: url('https://t.ctcdn.com.br/p1-Y4BU_X_L1kTJEVmbcJXoS6cU=/1400x788/smart/i3030.jpeg');
+}
+
+.photo-1:hover {
+    transform: scale(1.02);
+}
+
+.photo2 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-2 {
+    background-image: url('https://crops.giga.de/68/e0/46/da22d93bd10f1609c5e4fef5c4_YyAxNjExeDkwNis5Mis2MwJyZSA4NDAgNDcyAzYwZDIzMTE5ZWVj.png')
+}
+
+.photo-2:hover {
+    transform: scale(1.02)
+}
+
+.photo3 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-3 {
+    background-image: url('https://dkn-wp.s3.us-west-1.amazonaws.com/wp-content/uploads/2020/10/31144721/EgEiTIoX0AAk1S5-990x568.jpg');
+}
+
+.photo3:hover {
+    transform: scale(1.02)
+}
+
+.photo4 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-4 {
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2020/08/the-batman-trailer-jim-gordon.jpg?resize=1024,415')
+}
+
+.photo-4:hover {
+    transform: scale(1.02);
+}
+
+.photo5 {
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: 1s;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-5 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2020/08/20200827-riddler-batman.jpg');
+}
+
+.photo-5:hover {
+    transform: scale(1.02)
+}
+
+.photo6 {
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+    background-position: 15% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.photo-6 {
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/Colin-Farrell-as-The-Penguin-in-The-Batman.jpg')
+}
+
+.photo-6:hover {
+    transform: scale(1.02)
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+@media(max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-size: cover;
+        align-items: center;
+        display: flex;
+    }
+    
+    .photos-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+
+    .actor-photor-container {
+        width: 95;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo1 {
+        display: flex;
+        align-items: center;
+       background-position: 50% 50%;
+    }
+    .photo2 {
+        display: flex;
+        align-items: center;
+        background-position: 50% 50%;
+    }
+    .photo3 {
+        display: flex;
+        align-items: center;
+        background-position: 63% 50%;
+    }
+
+    .photo4 {
+        display: flex;
+        align-items: center;
+        background-position: 40% 50%;
+    }
+
+    .photo5 {
+        display: flex;
+        align-items: center;
+        background-position: 50% 50%;
+    }
+
+    .photo6 {
+        display: flex;
+        align-items: center;
+        background-position: 50% 50%;
+    }
+
+    }
